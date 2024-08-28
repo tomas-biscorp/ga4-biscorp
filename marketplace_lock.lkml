@@ -7,8 +7,8 @@ marketplace_ref: {
   listing: "ga4"
   version: "3.0.1"
   models: ["ga4"]
-  override_constant: GA4_CONNECTION { value:"" }
-  override_constant: GA4_SCHEMA { value:"ga4_export" }
+  override_constant: GA4_CONNECTION { value:"biscorp_ga4_tests" }
+  override_constant: GA4_SCHEMA { value:"analytics_347004239" }
   override_constant: GA4_TABLE_VARIABLE { value:"events_*" }
   override_constant: EVENT_COUNT { value:"" }
 }
